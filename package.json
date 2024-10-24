@@ -1,0 +1,26 @@
+{
+  "name": "node-restapi-sql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "def": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.25.9",
+    "@babel/node": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "nodemon": "^3.1.7"
+  }
+}
