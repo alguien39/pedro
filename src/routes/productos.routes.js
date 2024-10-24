@@ -1,4 +1,10 @@
-import { Router} from 'express';
+// productos.routes.js
+import { Router } from 'express';
 const router = Router();
 
-router.get('/productos', (req,res) => res.send('Productos'))
+// Definimos las rutas
+router.get('/productos', (req, res) => {
+  res.send('Lista de productos');
+});
+
+export default router; // Exportamos el router para poder usarlo en otros archivos
